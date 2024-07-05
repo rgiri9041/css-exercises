@@ -1,0 +1,19 @@
+p{
+    background-color: lightpink;
+    font-family: "verdaba", "DejaVu Sans", "sans-serif";
+}
+
+.alter-text{
+    font-size: 36px;
+    color: blue;
+}
+
+.alter-size{
+    font-size: 24pz;
+}
+
+.fouth-alter{
+    background-color: lightgreen;
+    font-size: 24px;
+    
+}
