@@ -5,22 +5,80 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  
 }
 
 img {
   width: 600px;
 }
 
+
+ul {
+  display: block;
+  list-style-type: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+  unicode-bidi: isolate;
+ }
+
+.nav-spacing {
+  padding: 15px 20px;
+}
+
 button {
   font-family: Roboto, sans-serif;
-  border: none;
+  border:none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px;
 }
 
 input {
   border: 1px solid #ddd;
   border-radius: 16px;
-  padding: 8px 24px;
+  padding: 10px 24px;
   width: 400px;
 }
+.header{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: black;
+}
+
+.left-links {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+   }
+
+ .right-links {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+   }
+
+a{
+    text-decoration: none;
+    color: gray ;
+   }
+
+ .content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 70px;
+  gap: 5px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ddd;
+  color: dimgray;
+   margin-top: 15px;
+ }
+
+ 
